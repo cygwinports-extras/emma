@@ -1,0 +1,87 @@
+emma
+------------------------------------------
+Extendable MySQL Managing Assistant
+
+Runtime requirements:
+  pygobject2-2.12.3-1
+  pygtk2-2.10.4-1
+  pymysql-1.2.1_p2-1
+  python-2.4.3-1
+
+Build requirements:
+  cygwin-1.5.24-2
+  cygport-0.2.11-1
+  python-2.4.3-1
+
+Canonical website:
+  http://www.fastflo.de/projects/emma
+
+Canonical download:
+  http://www.fastflo.de/files/emma/downloads/python_src/
+
+-------------------------------------------
+
+Build instructions:
+  unpack emma-0.6-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./emma-0.6-X.cygport all
+
+This will create:
+  /usr/src/emma-0.6-X-src.tar.bz2
+  /usr/src/emma-0.6-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/emma
+  /usr/lib/python2.4/site-packages/emmalib/__init__.py
+  /usr/lib/python2.4/site-packages/emmalib/__init__.pyc
+  /usr/lib/python2.4/site-packages/emmalib/__init__.pyo
+  /usr/lib/python2.4/site-packages/emmalib/mysql_db.py
+  /usr/lib/python2.4/site-packages/emmalib/mysql_db.pyc
+  /usr/lib/python2.4/site-packages/emmalib/mysql_db.pyo
+  /usr/lib/python2.4/site-packages/emmalib/mysql_host.py
+  /usr/lib/python2.4/site-packages/emmalib/mysql_host.pyc
+  /usr/lib/python2.4/site-packages/emmalib/mysql_host.pyo
+  /usr/lib/python2.4/site-packages/emmalib/mysql_query_tab.py
+  /usr/lib/python2.4/site-packages/emmalib/mysql_query_tab.pyc
+  /usr/lib/python2.4/site-packages/emmalib/mysql_query_tab.pyo
+  /usr/lib/python2.4/site-packages/emmalib/mysql_table.py
+  /usr/lib/python2.4/site-packages/emmalib/mysql_table.pyc
+  /usr/lib/python2.4/site-packages/emmalib/mysql_table.pyo
+  /usr/lib/python2.4/site-packages/emmalib/plugins/pretty_format/__init__.py
+  /usr/lib/python2.4/site-packages/emmalib/plugins/pretty_format/__init__.pyc
+  /usr/lib/python2.4/site-packages/emmalib/plugins/pretty_format/__init__.pyo
+  /usr/lib/python2.4/site-packages/emmalib/plugins/table_editor/__init__.py
+  /usr/lib/python2.4/site-packages/emmalib/plugins/table_editor/__init__.pyc
+  /usr/lib/python2.4/site-packages/emmalib/plugins/table_editor/__init__.pyo
+  /usr/share/doc/Cygwin/emma-0.6.README
+  /usr/share/doc/emma-0.6/ChangeLog
+  /usr/share/emma/changelog
+  /usr/share/emma/glade/emma.glade
+  /usr/share/emma/glade/table_editor.glade
+  /usr/share/emma/icons/db.png
+  /usr/share/emma/icons/emma.png
+  /usr/share/emma/icons/field.png
+  /usr/share/emma/icons/host.png
+  /usr/share/emma/icons/index.png
+  /usr/share/emma/icons/index_primary.png
+  /usr/share/emma/icons/index_unique.png
+  /usr/share/emma/icons/offline_host.png
+  /usr/share/emma/icons/table.png
+  /usr/share/emma/theme/README.html
+  /usr/share/emma/theme/gtk-2.0/gtkrc
+
+------------------
+
+Port Notes:
+
+----- version 0.6-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
