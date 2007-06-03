@@ -3,15 +3,15 @@ emma
 Extendable MySQL Managing Assistant
 
 Runtime requirements:
-  pygobject2-2.12.3-1
-  pygtk2-2.10.4-1
-  pymysql-1.2.1_p2-1
-  python-2.4.3-1
+  python-2.5.1-2
+  python-gobject2-2.12.3-2
+  python-gtk2-2.10.4-2
+  python-mysql-1.2.1_p2-2
 
 Build requirements:
   cygwin-1.5.24-2
-  cygport-0.2.11-1
-  python-2.4.3-1
+  cygport-0.3.1-1
+  python-2.5.1-2
 
 Canonical website:
   http://www.fastflo.de/projects/emma
@@ -37,27 +37,28 @@ This will create:
 Files included in the binary package:
 
   /usr/bin/emma
-  /usr/lib/python2.4/site-packages/emmalib/__init__.py
-  /usr/lib/python2.4/site-packages/emmalib/__init__.pyc
-  /usr/lib/python2.4/site-packages/emmalib/__init__.pyo
-  /usr/lib/python2.4/site-packages/emmalib/mysql_db.py
-  /usr/lib/python2.4/site-packages/emmalib/mysql_db.pyc
-  /usr/lib/python2.4/site-packages/emmalib/mysql_db.pyo
-  /usr/lib/python2.4/site-packages/emmalib/mysql_host.py
-  /usr/lib/python2.4/site-packages/emmalib/mysql_host.pyc
-  /usr/lib/python2.4/site-packages/emmalib/mysql_host.pyo
-  /usr/lib/python2.4/site-packages/emmalib/mysql_query_tab.py
-  /usr/lib/python2.4/site-packages/emmalib/mysql_query_tab.pyc
-  /usr/lib/python2.4/site-packages/emmalib/mysql_query_tab.pyo
-  /usr/lib/python2.4/site-packages/emmalib/mysql_table.py
-  /usr/lib/python2.4/site-packages/emmalib/mysql_table.pyc
-  /usr/lib/python2.4/site-packages/emmalib/mysql_table.pyo
-  /usr/lib/python2.4/site-packages/emmalib/plugins/pretty_format/__init__.py
-  /usr/lib/python2.4/site-packages/emmalib/plugins/pretty_format/__init__.pyc
-  /usr/lib/python2.4/site-packages/emmalib/plugins/pretty_format/__init__.pyo
-  /usr/lib/python2.4/site-packages/emmalib/plugins/table_editor/__init__.py
-  /usr/lib/python2.4/site-packages/emmalib/plugins/table_editor/__init__.pyc
-  /usr/lib/python2.4/site-packages/emmalib/plugins/table_editor/__init__.pyo
+  /usr/lib/python2.5/site-packages/emma-0.6-py2.5.egg-info
+  /usr/lib/python2.5/site-packages/emmalib/__init__.py
+  /usr/lib/python2.5/site-packages/emmalib/__init__.pyc
+  /usr/lib/python2.5/site-packages/emmalib/__init__.pyo
+  /usr/lib/python2.5/site-packages/emmalib/mysql_db.py
+  /usr/lib/python2.5/site-packages/emmalib/mysql_db.pyc
+  /usr/lib/python2.5/site-packages/emmalib/mysql_db.pyo
+  /usr/lib/python2.5/site-packages/emmalib/mysql_host.py
+  /usr/lib/python2.5/site-packages/emmalib/mysql_host.pyc
+  /usr/lib/python2.5/site-packages/emmalib/mysql_host.pyo
+  /usr/lib/python2.5/site-packages/emmalib/mysql_query_tab.py
+  /usr/lib/python2.5/site-packages/emmalib/mysql_query_tab.pyc
+  /usr/lib/python2.5/site-packages/emmalib/mysql_query_tab.pyo
+  /usr/lib/python2.5/site-packages/emmalib/mysql_table.py
+  /usr/lib/python2.5/site-packages/emmalib/mysql_table.pyc
+  /usr/lib/python2.5/site-packages/emmalib/mysql_table.pyo
+  /usr/lib/python2.5/site-packages/emmalib/plugins/pretty_format/__init__.py
+  /usr/lib/python2.5/site-packages/emmalib/plugins/pretty_format/__init__.pyc
+  /usr/lib/python2.5/site-packages/emmalib/plugins/pretty_format/__init__.pyo
+  /usr/lib/python2.5/site-packages/emmalib/plugins/table_editor/__init__.py
+  /usr/lib/python2.5/site-packages/emmalib/plugins/table_editor/__init__.pyc
+  /usr/lib/python2.5/site-packages/emmalib/plugins/table_editor/__init__.pyo
   /usr/share/doc/Cygwin/emma-0.6.README
   /usr/share/doc/emma-0.6/ChangeLog
   /usr/share/emma/changelog
@@ -78,6 +79,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.6-2 -----
+Rebuilt for python-2.5.
 
 ----- version 0.6-1 -----
 Initial release for Cygwin.

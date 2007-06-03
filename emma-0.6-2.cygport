@@ -1,0 +1,5 @@
+inherit distutils
+
+DESCRIPTION="Extendable MySQL Managing Assistant"
+HOMEPAGE="http://www.fastflo.de/projects/emma"
+SRC_URI="http://www.fastflo.de/files/emma/downloads/python_src/${P}.tar.gz"

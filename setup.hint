@@ -1,4 +1,4 @@
 category: Gnome Database
-requires: pygobject2 pygtk2 pymysql python
+requires: python python-gobject2 python-gtk2 python-mysql
 sdesc: "Extendable MySQL Managing Assistant"
 ldesc: "Extendable MySQL Managing Assistant"
